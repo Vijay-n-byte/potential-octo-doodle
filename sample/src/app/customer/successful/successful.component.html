@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 offset-lg-3 mnj">
+            <h4>Order placed</h4><br>
+            <h6>summary</h6>
+            <div>
+                <table border="1px" style="margin-left: 200px;">
+                    <tr>
+                       <td>name</td>
+                       <td>quantity</td>
+                       <td>cost</td>
+                    </tr>
+                    <tr *ngFor="let f of r">
+                       <td>{{f.productname}}</td>
+                       <td>{{f.quantity}}</td>
+                       <td>{{f.cost}}</td>
+                    </tr>
+                   </table>
+            </div>
+            
+            <h6>order will be delivered within 40 mins</h6>
+            <button (click)="backtohome()">back to homepage</button>
+        </div>
+    </div>
+</div>

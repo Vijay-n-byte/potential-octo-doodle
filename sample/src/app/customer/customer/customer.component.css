@@ -1,0 +1,37 @@
+.btn{
+    color: brown;
+    background-color: aqua;
+}
+.container-fluid{
+    background-color: violet;
+    height:100vh;
+    
+}
+
+li a{
+    color: azure;
+}
+
+
+.adna{
+    background-color: violet;
+    height: 8%;
+    border:1px solid violet;
+    
+}
+.table{
+    width:100%;
+}
+.jo{
+    height:84%;
+    border:1px solid black;
+    overflow-y: auto;
+    background-color: aliceblue;
+}
+.adfo{
+    height:8%;
+    border:1px solid violet;
+    background-color: violet;
+    padding-left: 10px;
+}
+
